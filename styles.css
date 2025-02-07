@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', serif; /* Roman font */
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #007bff;
+    font-family: 'Times New Roman', serif; /* Roman font */
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Times New Roman', serif; /* Roman font */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Times New Roman', serif; /* Roman font */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #resume-content {
+    text-align: left;
+    font-family: 'Times New Roman', serif; /* Roman font */
+  }
+  
+  #resume-content h2, #resume-content h3 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff; /* Line after each title */
+    padding-bottom: 5px; /* Space between title and line */
+    margin-bottom: 10px; /* Space after the line */
+    font-weight: bold; /* Bold titles */
+  }
+  
+  hr {
+    border: 1px solid #000000;
+    margin: 20px 0;
+  }
